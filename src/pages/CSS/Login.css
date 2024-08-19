@@ -1,0 +1,87 @@
+/* Login.css */
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #fce3fe; /* Light background to match site */
+  }
+  
+  .login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .login-container h1 {
+    color: #171717; /* Dark color for headings */
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  .login-fields {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+  }
+  
+  .login-fields input {
+    padding: 12px;
+    border: 1px solid #e3e3e3; /* Light border similar to new collections */
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .login-fields input::placeholder {
+    color: #616161; /* Darker placeholder text */
+  }
+  
+  button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #ff4141; /* Dark background to match hr in new-collections */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+
+  
+  .login-login {
+    color: #454545; /* Similar color to new-collections h1 */
+    font-size: 14px;
+  }
+  
+  .login-login span {
+    color: #ff4141; /* Highlighted link color */
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .login-agree {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #454545; /* Text color similar to new-collections h1 */
+    font-size: 14px;
+  }
+  
+  .login-agree input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+  

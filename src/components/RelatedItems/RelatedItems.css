@@ -1,0 +1,55 @@
+.relatedItems {
+    padding: 20px;
+    background-color: #fff; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 90vh;
+}
+
+.relatedItems h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #171717;
+    margin-bottom: 16px;
+}
+
+.relatedItems hr {
+    border-radius:  10px;
+    width: 200px;
+    height: 6px;
+    background: #252525;
+}
+
+.relatedproducts-item {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between; /* Distribute items evenly */
+}
+
+.relatedproducts-item > * {
+    flex: 1 1 calc(25% - 16px); /* Adjusts width of each item with space for gap */
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+    max-width: calc(25% - 16px); /* Prevents items from getting too wide */
+}
+
+@media (max-width: 1200px) {
+    .relatedproducts-item > * {
+        flex: 1 1 calc(33.333% - 16px); /* Adjust for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .relatedproducts-item > * {
+        flex: 1 1 calc(50% - 16px); /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .relatedproducts-item > * {
+        flex: 1 1 100%; /* Stack items on small screens */
+    }
+}

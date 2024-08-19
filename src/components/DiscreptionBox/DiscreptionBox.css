@@ -1,0 +1,45 @@
+
+.descriptionbox {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .descriptionbox-navigator {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .descriptionbox-nav-box {
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+  }
+  
+  .descriptionbox-nav-box:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .descriptionbox-nav-box.fade {
+    color: #aaa;
+
+  }
+  
+  .descriptionbox-description {
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  
+  .descriptionbox-description p {
+    margin-bottom: 15px;
+  }
+  
+  .descriptionbox-description p:last-child {
+    margin-bottom: 0;
+  }
+  

@@ -1,0 +1,64 @@
+/* Hero.css */
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+  }
+  
+  .hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px; /* Adjust padding for better spacing */
+    line-height: 1.1;
+  }
+  
+  .hero-left h2 {
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+  .hero-left p {
+    color: #171717;
+    font-size: 100px; /* Adjusted font size for better readability */
+    font-weight: 700; /* Corrected property from '700px' to '700' */
+  }
+  
+  .hero-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .hero-hand-icon img {
+    width: 100px;
+  }
+  
+  .hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 400px;
+    text-align: center;
+    height: 50px;
+    padding: 10px 20px; /* Added padding */
+    border-radius: 50px; /* Adjusted border-radius for a rounded button */
+    background: #ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+
+  }
+  
+  .hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

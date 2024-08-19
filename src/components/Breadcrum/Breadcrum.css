@@ -1,0 +1,17 @@
+.breadcrum {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #5e5e5e; /* Match text color to your site's theme */
+}
+
+.breadcrum span {
+    margin: 0;
+}
+
+.breadcrum img {
+    width: 16px;
+    height: auto;
+    margin: 0 10px;
+}
